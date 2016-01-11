@@ -24,7 +24,7 @@ set_property(GLOBAL PROPERTY AUTOGEN_TARGETS_FOLDER automoc)
 
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -D_DEBUG")  #racy backward compatibility
 
-set(EXTERNAL_LIBRARIES CACHE PATH "External libraries location")
+set(EXTERNAL_LIBRARIES ${CMAKE_CURRENT_SOURCE_DIR}/fw4spl-deps/cmake/findBinpkgs)
 set(CREATE_SUBPROJECTS OFF CACHE BOOL "Create a project for each subproject")
 set(BUILD_TESTS ON CACHE BOOL "Configures projects associated tests (<project>Test projects)")
 set(ADDITIONAL_PROJECTS CACHE PATH

@@ -1,0 +1,4 @@
+[submodule "fw4spl-deps"]
+	path = fw4spl-deps
+	url = https://github.com/corentindesfarges/fw4spl-deps
+	branch = fw4spl_0.10.2.2_debian
