@@ -18,7 +18,7 @@ set( REQUIREMENTS
     visuVTK
     visuVTKQt
     visuVTKAdaptor
-    launcher
+    fwLauncher
     appXml
 )
 

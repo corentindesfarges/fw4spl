@@ -9,7 +9,7 @@ set( REQUIREMENTS
     guiQt
     dataReg
     servicesReg
-    launcher
+    fwLauncher
     ioVTK
     ioData
     uiIO

@@ -16,7 +16,7 @@ set( REQUIREMENTS
     vtkSimpleMesh
     uiIO
     appXml
-    launcher
+    fwLauncher
 )
 
 bundleParam(appXml PARAM_LIST config PARAM_VALUES tuto15MultithreadConfig)

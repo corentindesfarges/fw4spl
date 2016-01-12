@@ -10,7 +10,7 @@ set( REQUIREMENTS
     guiQt
     dataReg
     servicesReg
-    launcher
+    fwLauncher
     scene2D
     uiVisu
     uiVisuQt

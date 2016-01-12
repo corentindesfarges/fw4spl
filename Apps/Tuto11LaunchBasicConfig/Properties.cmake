@@ -11,7 +11,7 @@ set( REQUIREMENTS
     servicesReg
     visuVTK
     visuVTKQt
-    launcher
+    fwLauncher
     ioVTK
     ioData
     vtkSimpleNegato

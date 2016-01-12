@@ -22,8 +22,8 @@ macro(linux_install PRJ_NAME)
 
     if("${${PRJ_NAME}_TYPE}" STREQUAL  "APP")
 
-        set(LAUNCHER_PATH "bin/launcher-${launcher_VERSION}")
-        set(LAUNCHER "launcher-${launcher_VERSION}")
+        set(LAUNCHER_PATH "bin/fwLauncher-${launcher_VERSION}")
+        set(LAUNCHER "fwLauncher-${launcher_VERSION}")
         set(PROFILE_PATH "${PRJ_NAME}_${DASH_VERSION}/profile.xml")
 
     elseif("${${PRJ_NAME}_TYPE}" STREQUAL  "EXECUTABLE")
